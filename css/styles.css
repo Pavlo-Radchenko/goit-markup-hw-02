@@ -1,0 +1,54 @@
+/* #212121 цвет основного текста */
+/* #757575 цвет вторичний */
+/* #FFFFFF колір кнопки */
+/* #2196F3 акцент */
+/* #2F303A цвет фона вторичний */
+
+/* page */
+.body {
+  font-family: roboto;
+}
+.page {
+  background-color: #ffffff;
+  color: #757575;
+}
+.page-logo {
+  color: #000000;
+}
+.page-logo:hover {
+  color: #2196f3;
+}
+/* hero */
+.hero {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+/* site-nav */
+ul {
+  list-style: none;
+}
+.site-nav {
+  color: #212121;
+}
+.link {
+  color: #212121;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.auth-nav {
+  color: #757575;
+}
+.auth-nav:hover,
+.auth-nav:focus {
+  color: #2196f3;
+}
+/* section */
+.section-title {
+  color: #212121;
+}
+.team {
+  color: #212121;
+}
