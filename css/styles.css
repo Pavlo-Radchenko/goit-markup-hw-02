@@ -55,8 +55,11 @@ ul {
 }
 
 /* section */
-.section-title .title {
+.title {
   color: var(--title-text-color);
+}
+.section-title {
+  color: #212121;
 }
 .team {
   color: var(--title-text-color);
