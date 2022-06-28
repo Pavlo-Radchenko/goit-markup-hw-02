@@ -9,7 +9,8 @@
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
 }
-.page-logo:hover {
+.page-logo:hover,
+.page-logo:focus {
   color: var(--accent-color);
 }
 /* page */
@@ -100,6 +101,10 @@ ul {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+  color: #00000026;
 }
 .portfolio-title {
   visibility: hidden;
