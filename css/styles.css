@@ -8,30 +8,16 @@
 .page-logo {
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .page-logo:hover,
 .page-logo:focus {
   color: var(--accent-color);
 }
-/* page */
-
-body {
-  color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
-  font-family: Roboto, sans-serif;
-}
-.text {
-  color: var(--primary-text-color);
-}
-
-/* hero */
-.hero {
-  color: var(--primary-white-color);
-  background-color: #2f303a;
-}
-
 /* site-nav */
-ul {
+.link-list {
   list-style: none;
 }
 .site-nav {
@@ -53,6 +39,29 @@ ul {
 .auth-nav:hover,
 .auth-nav:focus {
   color: var(--accent-color);
+} /* page */
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.text {
+  color: var(--primary-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* hero */
+.hero {
+  color: var(--primary-white-color);
+  background-color: #2f303a;
+  font-family: 'Roboto';
 }
 
 /* section */
@@ -61,6 +70,7 @@ ul {
 }
 .section-title {
   color: var(--title-text-color);
+  font-family: 'Roboto';
 }
 .team {
   color: var(--title-text-color);
@@ -101,10 +111,12 @@ ul {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: roboto, Arial, sans-serif;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
-  color: #00000026;
+  background-color: #00000026;
 }
 .portfolio-title {
   visibility: hidden;
