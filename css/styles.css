@@ -6,9 +6,7 @@
 }
 
 /* page */
-.body {
-  font-family: roboto;
-}
+
 .page {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
@@ -80,8 +78,20 @@ ul {
   color: var(--accent-color);
 }
 
+.footer-link,
+.footer-nav,
+.page-logo,
+.link,
+.auth-nav {
+  text-decoration: none;
+  font-style: normal;
+}
+
 /* button */
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+.portfolio-title {
+  visibility: hidden;
 }
