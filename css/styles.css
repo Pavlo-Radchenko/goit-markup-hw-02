@@ -84,7 +84,8 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #00000026;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
 }
 
 /* section */
@@ -157,13 +158,16 @@ body {
 
 /* button */
 .button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   cursor: pointer;
 }
 .button:hover,
 .button:focus {
-  background-color: #00000026;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 .portfolio-title {
   visibility: hidden;
