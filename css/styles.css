@@ -164,6 +164,9 @@ body {
 .footer .page-logo {
   color: var(--primary-white-color);
 }
+.footer .page-logo:hover {
+  color: var(--accent-color);
+}
 /* button */
 .button {
   background-color: #f5f4fa;
