@@ -12,6 +12,11 @@
   font-size: 26px;
   line-height: 1.19;
 }
+
+.page-logo .accent {
+  color: var(--accent-color);
+}
+
 .page-logo:hover,
 .page-logo:focus {
   color: var(--accent-color);
@@ -78,6 +83,7 @@ body {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -155,10 +161,13 @@ body {
   text-decoration: none;
   font-style: normal;
 }
-
+.footer .page-logo {
+  color: var(--primary-white-color);
+}
 /* button */
 .button {
   background-color: #f5f4fa;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
