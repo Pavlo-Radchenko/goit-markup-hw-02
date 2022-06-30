@@ -50,6 +50,11 @@
 .link.current {
   color: var(--accent-color);
 }
+.button.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -91,11 +96,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
 }
 
 .hero-button:hover,
