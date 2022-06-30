@@ -11,6 +11,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .page-logo .accent {
@@ -71,8 +72,10 @@ body {
 
 /* hero */
 .hero {
-  color: var(--primary-white-color);
   background-color: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -83,11 +86,13 @@ body {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   color: var(--title-text-color);
@@ -97,6 +102,10 @@ body {
 /* section */
 .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .section-title {
   color: var(--title-text-color);
@@ -106,9 +115,11 @@ body {
 }
 .title-list {
   color: var(--title-text-color);
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .section-list > .text {
   color: var(--primary-text-color);
@@ -145,6 +156,7 @@ body {
   color: #ffffff99;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .footer-nav:hover,
 .footer-link:hover,
@@ -155,11 +167,14 @@ body {
 
 .footer-link,
 .footer-nav,
-.page-logo,
 .link,
 .auth-nav {
   text-decoration: none;
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .footer .page-logo {
   color: var(--primary-white-color);
@@ -186,14 +201,17 @@ body {
 }
 
 /* portfolio file */
-.list-item {
+.list-item .title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .list-item .text {
   color: var(--primary-text-color);
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
