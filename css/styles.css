@@ -29,12 +29,15 @@
 /* site-nav */
 
 .link-list {
-  text-decoration: none;
   list-style: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.link,
+.auth-nav {
+  text-decoration: none;
 }
 .section-list {
   list-style: none;
