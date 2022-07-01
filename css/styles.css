@@ -63,7 +63,9 @@
 .auth-nav:focus {
   color: var(--accent-color);
 }
-
+:any-link {
+  text-decoration: none;
+}
 /* body */
 
 body {
