@@ -4,6 +4,10 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
+:any-link {
+  text-decoration: none;
+}
+
 /* logo */
 .page-logo {
   color: var(--title-text-color);
@@ -25,6 +29,7 @@
 /* site-nav */
 
 .link-list {
+  text-decoration: none;
   list-style: none;
   font-weight: 500;
   font-size: 14px;
@@ -63,9 +68,7 @@
 .auth-nav:focus {
   color: var(--accent-color);
 }
-:any-link {
-  text-decoration: none;
-}
+
 /* body */
 
 body {
