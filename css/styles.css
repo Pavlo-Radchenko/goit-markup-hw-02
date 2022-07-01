@@ -4,9 +4,9 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
-:any-link {
+/* :any-link {
   text-decoration: none;
-}
+} */
 
 /* logo */
 .page-logo {
