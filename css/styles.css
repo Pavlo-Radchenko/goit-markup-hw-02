@@ -23,6 +23,7 @@
   color: var(--accent-color);
 }
 /* site-nav */
+
 .link-list {
   list-style: none;
   font-weight: 500;
@@ -37,7 +38,7 @@
 .site-nav {
   color: var(--title-text-color);
 }
-.auth-nav .link.current {
+.auth-nav {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -49,10 +50,6 @@
 }
 .link.current {
   color: var(--accent-color);
-}
-.button.current {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
 }
 
 .link:hover,
@@ -66,6 +63,7 @@
 .auth-nav:focus {
   color: var(--accent-color);
 }
+
 /* body */
 
 body {
@@ -73,6 +71,7 @@ body {
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /* hero */
@@ -126,8 +125,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
-.section-list > .text {
+.section-list .text {
   color: var(--primary-text-color);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -171,9 +171,7 @@ body {
 }
 
 .footer-link,
-.footer-nav,
-.link,
-.auth-nav {
+.footer-nav {
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -203,6 +201,10 @@ body {
 }
 .portfolio-title {
   visibility: hidden;
+}
+.button.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* portfolio file */
