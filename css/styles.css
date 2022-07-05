@@ -80,6 +80,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   text-decoration: none;
+  /* margin: 0%; */
 }
 
 /* hero */
@@ -98,7 +99,7 @@ body {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-
+  cursor: pointer;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -209,15 +210,14 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.portfolio-title {
-  visibility: hidden;
-}
+
 .button.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
 /* portfolio file */
+
 .list-item .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -231,4 +231,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.portfolio-title {
+  visibility: hidden;
 }
